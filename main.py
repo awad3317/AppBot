@@ -1,7 +1,6 @@
 from info import *
 import os 
 from Subject import *
-from threading import Timer
 bot=telebot.TeleBot(Token)
 
 @bot.message_handler(commands=["start"])
